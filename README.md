@@ -13,7 +13,7 @@ Projetinho de uma calculadora usando javascript, eu mesmo construi o layout no [
 ![preview](./.github/preview2.png)
 ![preview](./.github/preview1.png)
 
-[Clique aqui para acessar](https://calculator-bruno.vercel.app/)
+[Clique aqui para acessar](https://brunogoncalvesferreira.github.io/calculator/)
 
 ## 🚀 Tecnologias
 
