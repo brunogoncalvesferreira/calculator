@@ -1,0 +1,57 @@
+:root {
+  -webkit-font-smoothing: antialiased;
+  --blue: #0177e8;
+  --gray: #222222;
+  --grey-100: #cccccc;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Nunito", sans-serif;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: var(--blue);
+}
+
+button {
+  background-color: transparent;
+  border: none;
+  width: 4rem;
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--grey-100);
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+}
+
+button:hover {
+  color: var(--blue);
+}
+
+button img {
+  width: 3rem;
+}
+
+footer {
+  margin-top: 1rem;
+}
+
+@media (max-width: 768px) {
+  html {
+    font-size: 85.7%;
+  }
+
+  body {
+    padding: 1rem;
+  }
+}

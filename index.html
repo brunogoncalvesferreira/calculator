@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="icon" type="image/svg+xml" href="./public/assets/icon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Calculadora</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <p id="operation"></p>
+        <strong id="result"></strong>
+      </header>
+
+      <div class="group-number">
+        <button id="clear" onclick="clean()">C</button>
+        <div id="group">
+          <button onclick="insert('7')">7</button>
+          <button onclick="insert('8')">8</button>
+          <button onclick="insert('9')">9</button>
+          <button onclick="insert('*')">
+            <img src="./public/assets/multiplication.svg" />
+          </button>
+        </div>
+
+        <div id="group">
+          <button onclick="insert('4')">4</button>
+          <button onclick="insert('5')">5</button>
+          <button onclick="insert('6')">6</button>
+          <button onclick="insert('/')">
+            <img src="./public/assets/division.svg" />
+          </button>
+        </div>
+
+        <div id="group">
+          <button onclick="insert('1')">1</button>
+          <button onclick="insert('2')">2</button>
+          <button onclick="insert('3')">3</button>
+          <button onclick="insert('-')">
+            <img src="./public/assets/subtration.svg" />
+          </button>
+        </div>
+
+        <div id="group">
+          <button onclick="insert('0')">0</button>
+          <button onclick="insert('.')">.</button>
+          <button onclick="calculate()">=</button>
+          <button onclick="insert('+')">
+            <img src="./public/assets/addition.svg" />
+          </button>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <p>copyright &copy; | Bruno Gonçalves Ferreira</p>
+    </footer>
+    <script type="module" src="./public/js/main.js"></script>
+    <script src="./public/js/script.js"></script>
+  </body>
+</html>
