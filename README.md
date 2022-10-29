@@ -1,6 +1,6 @@
 # Calculadora
 
-Projetinho de uma calculadora usando javascript, eu mesmo construi o layout no [Figma](https://www.figma.com).
+Projetinho de uma calculadora usando javascript, eu mesmo construir o layout no [Figma](https://www.figma.com).
 
 <p align="center">
   <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
